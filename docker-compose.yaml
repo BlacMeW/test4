@@ -10,6 +10,6 @@ services:
       - DB_PORT=3306
       - DB_USERNAME=root
       - DB_DATABASE=laravel
-      - DB_PASSWORD=Sa_@05062010
+      - DB_PASSWORD=pass
     volumes:
       - ${PWD}/my-project:/app
