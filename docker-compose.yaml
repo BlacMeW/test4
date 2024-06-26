@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  laravel:
+    image:  bitnami/laravel:10
+    ports:
+      - 8000:8000
+    environment:
+      - DB_HOST=mariadb
+      - DB_PORT=3306
+      - DB_USERNAME=root
+      - DB_DATABASE=laravel
+      - DB_PASSWORD=Sa_@05062010
+    volumes:
+      - ${PWD}/my-project:/app
